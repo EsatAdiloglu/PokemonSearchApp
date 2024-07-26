@@ -1,0 +1,115 @@
+:root{
+    --normal-color: #ccc6bd;
+    --fire-color:  #e93b0b;
+    --water-color: #3297fb;
+    --electric-color: #fec42c;
+    --grass-color: #71c333;
+    --ice-color: #a7e8fe;
+    --fighting-color: #8f4730;
+    --ground-color: #d6b355;
+    --poison-color: #934494;
+    --flying-color: #95a7f4;
+    --psychic-color: #ef4681;
+    --bug-color: #a8b81c;
+    --rock-color: #bea557;
+    --ghost-color: #5e5eb1;
+    --dragon-color: #856eea;
+    --dark-color: #7d6c60;
+    --steel-color: #c0c0cd;
+    --fairy-color: #f6b1f6;
+    
+  }
+  h1, p {
+    text-align: center;
+  }
+  #search-container {
+    position: relative;
+    top: 15px;
+    border: 1px solid black;
+    margin: 20px auto; 
+    text-align: center;
+  }
+  #search-input {
+    width: 20%;
+    margin-bottom: 20px;
+    margin-top: 20px;
+  }
+  button {
+    cursor: pointer;
+    width: 50px;
+  }
+  #pokemon-image {
+  
+    text-align: center;
+  }
+  #types {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+  }
+  .type {
+    padding: 10px;
+    font-weight: bold;
+  }
+  .normal {
+    background-color: var(--normal-color);
+  }
+  .fire {
+    background-color: var(--fire-color);
+  }
+  .water {
+    background-color: var(--water-color);
+  }
+  .electric {
+    background-color: var(--electric-color);
+  }
+  .grass {
+    background-color: var(--grass-color);
+  }
+  .ice {
+    background-color: var(--ice-color);
+  }
+  .fighting {
+    background-color: var(--fighting-color);
+  }
+  .ground {
+    background-color: var(--ground-color);
+  }
+  .poison {
+    background-color: var(--poison-color);
+  }
+  .flying {
+    background-color: var(--flying-color);
+  }
+  .psychic {
+    background-color: var(--psychic-color);
+  }
+  .bug {
+    background-color: var(--bug-color);
+  }
+  .rock {
+    background-color: var(--rock-color);
+  }
+  .ghost {
+    background-color: var(--ghost-color);
+  }
+  .dragon {
+    background-color: var(--dragon-color);
+  }
+  .dark {
+    background-color: var(--dark-color);
+  }
+  .steel {
+    background-color: var(--steel-color);
+  }
+  .fairy {
+    background-color: var(--fairy-color);
+  }
+  #pokemon-stats{
+    margin: auto;
+    border-collapse: separate; 
+    border-spacing: 50px 8px; 
+  }
+  th {
+    font-weight: normal;
+  }
